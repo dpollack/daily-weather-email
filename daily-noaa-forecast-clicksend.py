@@ -57,7 +57,7 @@ with open('weatherfile') as fd:
 # Configure HTTP basic authorization: BasicAuth
 configuration = clicksend_client.Configuration()
 configuration.username = 'danpollack@gmail.com'
-configuration.password = '3111A0A7-CFD2-55F1-536A-E239E308A931'
+configuration.password = 'XXXXX'
 
 # create an instance of the API class
 api_instance = clicksend_client.SMSApi(clicksend_client.ApiClient(configuration))
